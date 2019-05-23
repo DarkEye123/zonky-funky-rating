@@ -8,6 +8,7 @@ const rules = {
 const permissions = shield({
   Query: {
     averageLoanAmount: rules.isAuthenticatedUser,
+    ratings: rules.isAuthenticatedUser,
   },
 });
 
