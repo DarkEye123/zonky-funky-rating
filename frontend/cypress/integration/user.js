@@ -16,13 +16,13 @@ describe('user tests suite', () => {
       .should('have.length', 2)
       .should(cookies => {
         // each cookie has these properties
-        expect(cookies[0]).to.have.property('name', 'bsc-session');
+        expect(cookies[0]).to.have.property('name', 'zonky-session');
         expect(cookies[0]).to.have.property('httpOnly', true);
         expect(cookies[0]).to.have.property('secure', false);
         expect(cookies[0]).to.have.property('domain');
         expect(cookies[0]).to.have.property('path');
 
-        expect(cookies[1]).to.have.property('name', 'bsc-session.sig');
+        expect(cookies[1]).to.have.property('name', 'zonky-session.sig');
         expect(cookies[1]).to.have.property('httpOnly', true);
         expect(cookies[1]).to.have.property('secure', false);
         expect(cookies[1]).to.have.property('domain');
