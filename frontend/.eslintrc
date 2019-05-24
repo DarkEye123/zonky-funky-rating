@@ -22,7 +22,8 @@
     "prettier/prettier": "error",
     "arrow-parens": "off",
     "object-curly-newline": "off",
-    "no-empty": "off"
+    "no-empty": "off",
+    "react-hooks/exhaustive-deps": "off"
   },
   "settings": {
     "react": {
