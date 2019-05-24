@@ -8,7 +8,7 @@ const Help = () => {
   return (
     <StyledHelp>
       <h1>{t('How to Log In')}?</h1>
-      <p>{t('To log into the app two users were made')}:</p>
+      <p>{t('To log into the app one user was made')}:</p>
 
       <table>
         <thead>
@@ -23,20 +23,17 @@ const Help = () => {
         </tbody>
       </table>
 
-      <h1>{t('How to manipulate notes')}?</h1>
-      <h2>{t('Deletion')}:</h2>
-      <p>{t('Notes are draggable. To delete a note simply drag in over trash icon.')}</p>
-      <h2>{t('Creation')}:</h2>
-      <p>{t('Click on the green button and fill the text.')}</p>
-      <h2>{t('Update')}:</h2>
-      <p>{t('Double click on the chosen note and edit the text.')}</p>
+      <h1>{t('How to get loans average')}?</h1>
+      <p>{t('Log into the app, then click on the button and wait')}.</p>
 
-      <h4>{t('Beware')}</h4>
-      <p>
-        {t('Some plugins doing grammar corrections (like Grammarly) may cause app disfunction.')}
-        <br />
-        {t('Please be sure to not use them, otherwise strange behavior may occur.')}
-      </p>
+      <div class="warning">
+        <h2>{t('Beware')}</h2>
+        <p>
+          {t('Some plugins doing grammar corrections (like Grammarly) may cause app disfunction.')}
+          <br />
+          {t('Please be sure to not use them, otherwise strange behavior may occur.')}
+        </p>
+      </div>
 
       <p className="copyright">Copyright 2019 - by Matej Leško.</p>
     </StyledHelp>

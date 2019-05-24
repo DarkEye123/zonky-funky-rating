@@ -7,24 +7,13 @@ const StyledHelp = styled(CenteredMain)`
   /* justify-content: flex-start; */
   justify-content: flex-start;
   padding: 3rem 10rem;
-  height: 100%;
+  height: 80vh;
   h1,
   h2 {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
   }
-  p,
-  h2 {
+  p {
     margin: 0.5rem 0;
-  }
-  h4 {
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
-    color: ${({ theme }) => theme.color.lightAccent};
-  }
-  h4,
-  h1 ~ h2,
-  h2 ~ p {
-    align-self: flex-start;
   }
   table {
     margin: 2rem 0;
@@ -37,6 +26,10 @@ const StyledHelp = styled(CenteredMain)`
     position: absolute;
     align-self: center;
     bottom: 0;
+  }
+  .warning {
+    margin: auto 0;
+    align-self: flex-start;
   }
   @media (max-width: 700px) {
     font-size: 1rem;
