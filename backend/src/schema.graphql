@@ -14,6 +14,6 @@ type Mutation {
 
 type Query {
   activeUser: User
-  averageLoanAmount(rating: String!): Int!
+  averageLoanAmount(rating: String!): Float!
   ratings: [String!]!
 }
