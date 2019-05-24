@@ -22,6 +22,7 @@ const App = () => (
             <Page />
             <NavBar />
             <Routes />
+            <div id="modal" />
           </div>
         </Router>
       </ThemeProvider>
