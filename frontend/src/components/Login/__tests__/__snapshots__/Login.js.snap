@@ -6,13 +6,13 @@ exports[`login tests renders 1`] = `
   data-testid="loginpage"
 >
   <form
-    class="sc-kGXeez dYYneR"
+    class="sc-cSHVUG aolVv"
   >
     <div
       class="sc-bZQynM cCBhlA"
     >
       <input
-        class="sc-gzVnrw kuqIpM"
+        class="sc-gzVnrw dRoAVn"
         data-testid="email"
         id="email"
         name="email"
@@ -20,7 +20,6 @@ exports[`login tests renders 1`] = `
       />
       <span />
       <label
-        data-testid="email"
         for="Email"
       >
         Email
@@ -30,7 +29,7 @@ exports[`login tests renders 1`] = `
       class="sc-bZQynM cCBhlA"
     >
       <input
-        class="sc-gzVnrw kuqIpM"
+        class="sc-gzVnrw dRoAVn"
         data-testid="password"
         id="password"
         name="password"
@@ -38,7 +37,6 @@ exports[`login tests renders 1`] = `
       />
       <span />
       <label
-        data-testid="password"
         for="Password"
       >
         Password

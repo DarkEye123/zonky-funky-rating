@@ -37,8 +37,8 @@ const Login = ({ history }) => {
             <Page data-testid="loginpage">
               <ErrorMessage error={error} />
               <Form>
-                <InputField data-testid="email" label="Email" name="email" />
-                <InputField data-testid="password" label="Password" name="password" />
+                <InputField label="Email" name="email" />
+                <InputField label="Password" name="password" />
                 <SpinningButton data-testid="signin" disabled={!isValid || loading} spin={loading} type="submit">
                   {t(`Sign${loading ? 'ing' : ''} In`)}
                 </SpinningButton>

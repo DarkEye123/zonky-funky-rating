@@ -13,7 +13,7 @@ const InputField = ({ name, label, ...props }) => {
   }
   return (
     <StyledInputField>
-      <Input withValue={withValue} innerRef={handleInnerRef} id={name} name={name} {...props} />
+      <Input withValue={withValue} data-testid={name} innerRef={handleInnerRef} id={name} name={name} {...props} />
       <span />
       <label htmlFor={label} {...props}>
         {t(label)}
