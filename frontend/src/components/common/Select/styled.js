@@ -8,7 +8,7 @@ const BaseOverlay = styled.div`
   bottom: 0;
   left: 0;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: ${({ theme }) => theme.color.darkShades};
   display: flex;
   flex-direction: column;
   align-items: center;

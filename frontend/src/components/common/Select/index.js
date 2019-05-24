@@ -5,13 +5,12 @@ import { useEscape, useModalClose } from './hooks';
 import { Overlay, Container, SelectRow, Circle } from './styled';
 import Portal from '../Portal';
 
-const Select = ({ options = [], selected = 0, selectHandler, onClose, isOpen = false }) => {
+const Select = ({ options = [], selected = 0, onClose, isOpen = false }) => {
   const element = useRef(null);
   useEscape(onClose);
   useModalClose(onClose, element);
   const handleCloseModal = index => {
-    selectHandler(index);
-    onClose();
+    onClose(index);
   };
 
   return (
@@ -48,7 +47,6 @@ const Select = ({ options = [], selected = 0, selectHandler, onClose, isOpen = f
 Select.propTypes = {
   selected: PropTypes.number,
   options: PropTypes.array.isRequired,
-  selectHandler: PropTypes.func.isRequired,
   onClose: PropTypes.func.isRequired,
   isOpen: PropTypes.bool.isRequired,
 };
