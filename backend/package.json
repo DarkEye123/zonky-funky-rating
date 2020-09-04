@@ -35,7 +35,7 @@
     "dotenv": "^8.0.0",
     "graphql": "^14.3.0",
     "graphql-cli": "^3.0.11",
-    "graphql-shield": "^5.3.5",
+    "graphql-shield": "^6.0.6",
     "graphql-yoga": "^1.17.4",
     "helmet": "^3.18.0",
     "jsonwebtoken": "8.5.1",
